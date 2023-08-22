@@ -2,7 +2,7 @@
 FROM python:3.10.12-slim
 
 # 作業ディレクトリを変更
-WORKDIR /workspace
+WORKDIR /python_econometrics
 
 # ローカルPCのファイルをコンテナのカレントディレクトリにコピー
 COPY requirements.txt ${pwd}

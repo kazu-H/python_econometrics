@@ -10,3 +10,4 @@ scipy==1.11.1
 see==1.4.1
 statsmodels==0.14.0
 wooldridge==0.4.4
+jupyter

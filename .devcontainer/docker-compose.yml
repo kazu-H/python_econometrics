@@ -3,7 +3,7 @@ services:                           # サービスを定義しますという決
     image: python:test             # イメージのREPOSITORY名:TAG名を指定
     build: .                        # Dockerfileを相対パスで指定
     container_name: python_econometrics    # 作成されるコンテナ名を指定
-    working_dir: /workspace/src     # 作業ディレクトリを指定
+    working_dir: /python_econometrics/src     # 作業ディレクトリを指定
     volumes:                        # マウントするファイルを指定する
-      - ../src:/workspace/src       # ローカルPCのsrc:コンテナのworkspace/src
+      - ../src:/python_econometrics/src       # ローカルPCのsrc:コンテナのworkspace/src
     tty: true                       # コンテナを起動し続ける
