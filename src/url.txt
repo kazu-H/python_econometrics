@@ -1,0 +1,4 @@
+https://py4etrics.github.io/index.html
+
+#wslをgoogle-driveにマウント
+https://tech.takake-blog.com/wsl-automount-google-drive/
