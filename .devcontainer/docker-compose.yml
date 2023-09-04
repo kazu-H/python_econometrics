@@ -10,6 +10,6 @@ services:                           # サービスを定義しますという決
 
                       # マウントするファイルを指定する
       - type: bind
-      source: ./src
-      target: /python_econometrics/src       # ローカルPCのsrc:コンテナのworkspace/src
+        source: ../src
+        target: /python_econometrics/src       # ローカルPCのsrc:コンテナのworkspace/src
     tty: true                       # コンテナを起動し続ける
