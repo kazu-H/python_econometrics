@@ -7,6 +7,8 @@ WORKDIR /python_econometrics
 # ローカルPCのファイルをコンテナのカレントディレクトリにコピー
 COPY requirements.txt ${pwd}
 
+RUN apt update && apt -y upgrade && apt install -y vim gcc libgraphviz-dev
+
 # pipのアップデート
 RUN pip install --upgrade pip
 
